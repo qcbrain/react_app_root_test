@@ -1,30 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: aliceblue;
-}
-
-#i_lod {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    vertical-align: center;
+.Movie #i_lod {
+    position: absolute;
+    top: 48%;
+    left: 48%;
     font-size: 12px;
     font-weight: 500;
 }
 
-#i_main {
+.Movie #i_main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-#i_top {
+.Movie #i_top {
     display: inline-block;
     color: rgba(255, 132, 171, 70%);
     font-size: 40px;
@@ -34,10 +23,10 @@ body {
     width: 400px;
     padding: 10px;
     border-bottom: 2px solid;
-    text-shadow: 0px 2px 2px 0px lightgray;
+    text-shadow: 0px 6px 2px  lightgray;
 }
 
-.i_mox {
+.Movie .i_mox {
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
@@ -50,44 +39,46 @@ body {
     box-shadow: 0px 5px 10px 2px rgba(0,0,0,20%);
 }
 
-.i_fir {
+.Movie .i_fir {
     display: flex;
 }
 
-.i_tox {
+.Movie .i_tox {
     display: flex;
     flex-direction: column;
 }
 
-.i_gnr {
+.Movie .i_gnr {
     font-size: 12px;
     text-align: left;
     margin-left: 10px;
     color: gray;
+    max-height: 80px;
 }
 
-.i_img {
+.Movie .i_img {
     margin-top: -40px;
     display: flex;
     width: 150px;
+    height: 225px;
     margin-right: 10px;
 }
 
-.i_tit {
+.Movie .i_tit {
     font-size: 23px;
     font-weight: bold;
     text-align: left;
     margin: 5px;
 }
 
-.i_yr {
+.Movie .i_yr {
     text-align: right;
     width: 230px;
     margin: 5px;
     color: gray;
 }
 
-.i_sum {
+.Movie .i_sum {
     margin-top: 10px;
     padding: 5px;
     font-size: 12px;
@@ -95,18 +86,6 @@ body {
     height: 50px;
 }
 
-.i_mr {
+.Movie .i_mr {
     font-size: 10px;
-}
-
-#i_bot {
-    font-size: 12px;
-    text-align: left;
-    margin-top: 100px;
-    width: 100%;
-    height: 150px;
-    background-color: white;
-    padding: 30px;
-    padding-left: 60px;
-    color: gray;
 }

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.HMenu #i_menu {
+    text-align: center;
+    height: 70px;
+    background-color: black;
+    padding: 30px;
+}
+
+.HMenu .c_menu {
+    margin: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#i_bot {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 100px;
+    height: 150px;
+    background-color: white;
+    padding: 30px;
+    padding-left: 60px;
+    color: gray;
+}
+
+#i_gtp {
+    text-align: center;
+    vertical-align: center;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: navy;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,30%);
+    cursor: pointer;
+}
